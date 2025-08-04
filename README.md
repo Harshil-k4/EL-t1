@@ -11,7 +11,7 @@ This repository (`EL-t1`) contains the implementation of the DevOps Internship T
 - [Step-by-Step Implementation Process](#step-by-step-implementation-process)
 - [Running the Application](#running-the-application)
 - [Best Practices Followed](#best-practices-followed)
-- [Repository Link](#repository-link)
+- [Outputs](#outputs)
 
 ---
 
@@ -23,16 +23,16 @@ A simple Node.js Express web application containerized with Docker and integrate
 
 ## Folder Structure
 
-EL-t1/
-├── .github/
-│ └── workflows/
-│ └── main.yml
-├── src/
-│ └── index.js
-├── package.json
-├── Dockerfile
-├── .dockerignore
-├── README.md
+EL-t1/<br>
+├── .github/<br>
+│ └── workflows/<br>
+│ └── main.yml<br>
+├── src/<br>
+│ └── index.js<br>
+├── package.json<br>
+├── Dockerfile<br>
+├── .dockerignore<br>
+├── README.md<br>
 
 
 ---
@@ -104,11 +104,14 @@ docker run -p 3000:3000 el-t1-node-app
 
 ---
 
-## Repository Link
+## Outputs
 
-The complete code and workflow definitions can be accessed at:  
-[https://github.com/Harshil-k4/EL-t1](https://github.com/Harshil-k4/EL-t1)
+**Files produced as part of the process:**<br>
+![alt text](image.png)
 
----
+**workflow logs**<br>
+![alt text](image-1.png)
 
-This implementation showcases an end-to-end CI/CD pipeline setup suitable for real-world DevOps workflows, emphasizing automation, security, and efficiency.
+**image uploaded into docker hub**<br>
+![alt text](image-2.png)
+
